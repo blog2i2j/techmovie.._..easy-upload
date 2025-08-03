@@ -1,0 +1,78 @@
+host: zmpt.cc
+url: https://zmpt.cc
+uploadPath: /upload.php
+siteType: NexusPHP
+icon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE2klEQVR4nH2Ua2xUVRDHLw8fGCIqGkAMYBCNJEKkEQkIK+3umbm7W6wN22KhsvKwhS10K93SUuhWbClWmrYEKaW0tU+gsHfZlhiFYEQDhsAHH8gHYmJAAfEVVB6l9879m20DQkw4yflwcvL/zcyZ/xlNu8fCQd9o9KiIxOgPO0YQQ12TKJ82DbXLjNA8+2N++F76AUjU8Ygd4RkwXAqfeKai27VeYnRUoupPMcgUgy+IQYeki8uxh92IJY+6G5CQcB98viG3znbEMQOGOiwx+ltirtJeY87z6KZMRFVE9qtLso9N7NeBmBd2B1+Qdr0MHZ5HAW3QAFBP1OFJnA6HY+gtqGW406wDfEIMuiH7VK90USP2qZlonTvV7FQ7pJWuoEMH2nRIE19FA30Whw4APWoFvGqTeOkQvCoF2kCk3sNJzyJCHms3HZV2viwt/KM0kWE18Uq0JU5Ds6vUbqDz2D0PqGMT21QNqjxjNdtNqeJVNUhLgaTQKZmv6swUSoU2Y1gc3BdVM61WKpBmPiK79IuynY9btaoE29Qa1Kl8a4cKyzauwTYKYauaqsHjmWQmU6rM4+OSSr8hnWFn0DfWm7S+bzm/BKdvRBx8o1U9I/VcKdvpjGzlq3a1fgxVegbKk0f1bVEJqEoci0pWGnzOcVg4ewwy3OORrvKxSDXATz8g2wPJol8R0CsQouduN7HSPRo1tEG28EWp5K9RwVVWOa27WcRTrI20QUMalWEBtSCDTyLNOy0ukiy1EcFkIOgG3mEgxL/Y66gNxaz6oWHf/aigCVY55cq7HEMJ98gGPiXFdEaTDNWJReoL8ZOFpdwjWVwuK7hWVlKTtdoZttc4S7CWQijmxXbYOQPhhIduZXu6y3c/SthnF/NlKWRTClSvhsUqAr86jmwdWMGQHL4qq7gSOclPIzDzSRQljkJh0sj+XZ8wAuHxD0LTBsd9h7BjKEL0Bgp1oECHBEk0WUYfydt0BDk6ZDX1otATL3HTneb/K5A0EmvcL2Mtv26FVLqVpzIQpEwEKWDnUjuCOhCMJ0NXtL4AF5sBbpHV6poE6XMpoLMopN0IK0bYMTwOvF70qsNcSx1SQP+gwA0UxIN6gVw6i1XUY62g7yWbRLLojIZCr7Lz9eVYQx12iBciSGOkVL0v75EpFRRFLU+Mm71L8w1Bjp4oufQlVjGQ6wWyORwPeDM76UVrCZ2z/XqbhjzfMIQSp6GQK1HkTOr/ehXkl83ch2o3pJa/tba7QmjkJ/o7nMWTsYzS7KV8Xvz0EzL1HdYiKujzz52JLMeE/je6kqceQ7H+lpSpTtmsKq1KPYAP9Byp5gY0J0N20mW7hdrMdkq97cdM9sGvWmUhfScL+JL4XBXwOV/ov+zy+YYgzJNlE53Ah15INX2KBuXCLpeSet6LRj6HPR5IJ53DfpcfMZ7SD3U4HrfSVaHM59PwuSGvuUr/G2NhbTCqEqfLVvUVGj2QeropTeogOpyT0MlL7D18DBGGGGSLoU6im1+5pb0+a9Y48VIPkvWyu2cjMAh1cyZJvaqTRrbQrkM66Gd00XpEPbMRoYDE+Hf06JAYXbcPcF6/Lu5Lh2M4lJr6/4kNbZC9k58ym8mDTvd6cy+1m4arBd2cj25WZtSZZBkqbBm8GAZPvFNrMz/wL9Y2D69m8IJuAAAAAElFTkSuQmCC
+asSource: false
+asTarget: true
+seedDomSelector: "#top~table:first>tbody>tr:nth-child(6)"
+torrentDownloadLinkSelector: a[href*="download.php?id="]
+search:
+  path: /torrents.php
+  imdbOptionKey: "4"
+  nameOptionKey: "0"
+  params:
+    incldead: "0"
+    search_area: "{optionKey}"
+    search: "{imdb}"
+    sort: "5"
+    type: desc
+torrent:
+  selector: input[name="file"]
+name:
+  selector: input[name="name"]
+subtitle:
+  selector: input[name="small_descr"]
+imdb:
+  selector: input[name="pt_gen"]
+description:
+  selector: textarea[name="descr"]
+category:
+  selector: select[name="type"]
+  map:
+    movie: "401"
+    tv: "402"
+    documentary: "422"
+    anime: "417"
+    tvShow: "403"
+    music: "423"
+    software: "425"
+    game: "426"
+    misc: "409"
+videoType:
+  selector: select[name="medium_sel[4]"]
+  map:
+    uhdbluray: "1"
+    bluray: "1"
+    hddvd: "2"
+    remux: "3"
+    hdtv: "5"
+    dvdr: "6"
+    encode: "7"
+    cd: "8"
+    web: "10"
+    other: "12"
+resolution:
+  selector: select[name="standard_sel[4]"]
+  map:
+    1080p: "1"
+    1080i: "1"
+    2160p: "5"
+    480p: "7"
+    720p: "8"
+    4320p: "9"
+audioCodec:
+  selector: select[name="audiocodec_sel[4]"]
+  map:
+    flac: "1"
+    ape: "2"
+    dts: "3"
+    mp3: "4"
+    ogg: "5"
+    aac: "6"
+    other: "7"
+    ac3: "8"
+    alac: "9"
+    wav: "10"
+anonymous:
+  selector: input[name="uplver"]

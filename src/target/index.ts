@@ -14,7 +14,6 @@ import './target-filler/HDU';
 import './target-filler/KEEPFRDS';
 import './target-filler/NYPT';
 import './target-filler/PTN';
-import './target-filler/PTSBAO';
 import './target-filler/SpeedApp';
 import './target-filler/SSD';
 import './target-filler/TTG';
@@ -35,8 +34,7 @@ import './target-filler/iTS';
 import './target-filler/BYR';
 import './target-filler/Pter';
 import './target-filler/MTV';
-import './target-filler/AGSV';
-import './target-filler/Railgun';
+import './target-filler/shared-nexusphp-category-change';
 import autofill from './autofill';
 
 export const fillTargetForm = (info: TorrentInfo.Info): void => {
