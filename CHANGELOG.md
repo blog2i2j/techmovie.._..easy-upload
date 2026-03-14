@@ -1,11 +1,26 @@
+## [7.0.6](https://github.com/techmovie/easy-upload/compare/7.0.5...7.0.6) (2026-03-14)
+
+
+### Bug Fixes
+
+* **bhd:** get mediainfo ([#381](https://github.com/techmovie/easy-upload/issues/381)) ([a352f03](https://github.com/techmovie/easy-upload/commit/a352f0376816a4504583a397c92e0ba83cbfcd9f))
+
+
+### Features
+
+* **config:** add 13city.org site config ([#392](https://github.com/techmovie/easy-upload/issues/392)) ([c87430e](https://github.com/techmovie/easy-upload/commit/c87430e1e3519d6db24aaf8f7638c6ea50194d02)), closes [#367](https://github.com/techmovie/easy-upload/issues/367) [#367](https://github.com/techmovie/easy-upload/issues/367)
+* **config:** add AnimeZ (animez.to) site config ([#389](https://github.com/techmovie/easy-upload/issues/389)) ([225133d](https://github.com/techmovie/easy-upload/commit/225133d9f50bce4042f46308a2d52fd4bf7690ad)), closes [#383](https://github.com/techmovie/easy-upload/issues/383) [#383](https://github.com/techmovie/easy-upload/issues/383)
+* **config:** add baozi (p.t-baozi.cc) site config ([#388](https://github.com/techmovie/easy-upload/issues/388)) ([aa2d6c8](https://github.com/techmovie/easy-upload/commit/aa2d6c87e534e571d85e60d15723b8c2577ceb4b)), closes [#387](https://github.com/techmovie/easy-upload/issues/387) [#387](https://github.com/techmovie/easy-upload/issues/387)
+* **config:** add HDClone (pt.hdclone.top) site config ([#390](https://github.com/techmovie/easy-upload/issues/390)) ([7656949](https://github.com/techmovie/easy-upload/commit/7656949a92904d61930a2d509ccf43de58c04c9f)), closes [#377](https://github.com/techmovie/easy-upload/issues/377) [#377](https://github.com/techmovie/easy-upload/issues/377)
+* **config:** add PTSkit (www.ptskit.org) site config ([#391](https://github.com/techmovie/easy-upload/issues/391)) ([6e0af13](https://github.com/techmovie/easy-upload/commit/6e0af13a1b45858b1c5d15e4d8b3812d66613234)), closes [#373](https://github.com/techmovie/easy-upload/issues/373) [#373](https://github.com/techmovie/easy-upload/issues/373)
+* generate site config based on issue ([7d21a6b](https://github.com/techmovie/easy-upload/commit/7d21a6bf5d0eb0a0df77aeb4cc0a14faf67f8e5d))
+
 ## [7.0.5](https://github.com/techmovie/easy-upload/compare/7.0.4...7.0.5) (2026-01-07)
 
 
 ### Bug Fixes
 
 * **chd:** fix selector ([76dd87c](https://github.com/techmovie/easy-upload/commit/76dd87c783a7ce0d9bcdc17186124695f8a6cf7f)), closes [#375](https://github.com/techmovie/easy-upload/issues/375)
-
-
 
 ## [7.0.4](https://github.com/techmovie/easy-upload/compare/7.0.3...7.0.4) (2025-12-31)
 
@@ -20,8 +35,6 @@
 * **new tracker:** tangpt ([#371](https://github.com/techmovie/easy-upload/issues/371)) ([0848af9](https://github.com/techmovie/easy-upload/commit/0848af90978327582e31c85638ad8e60e3849363))
 * **new tracker:** zmpt ([8a4c633](https://github.com/techmovie/easy-upload/commit/8a4c6338376ed9dcce34a64a4c495f4bb8cb77db)), closes [#363](https://github.com/techmovie/easy-upload/issues/363)
 
-
-
 ## [7.0.3](https://github.com/techmovie/easy-upload/compare/7.0.2...7.0.3) (2025-08-02)
 
 
@@ -33,8 +46,6 @@
 ### Features
 
 * update the usage of mt api ([115efa8](https://github.com/techmovie/easy-upload/commit/115efa8262b52b02cdb42294d90486279efd4090))
-
-
 
 ## [7.0.2](https://github.com/techmovie/easy-upload/compare/7.0.1...7.0.2) (2025-08-02)
 
@@ -49,8 +60,6 @@
 * **new tracker:** qingwa ([c2fc78e](https://github.com/techmovie/easy-upload/commit/c2fc78e20d0d32c20968854a027e23a1e440af88)), closes [#339](https://github.com/techmovie/easy-upload/issues/339)
 * support new ui of mt ([4cc4252](https://github.com/techmovie/easy-upload/commit/4cc425275af6ab631907f78c52732eccfe48e473))
 
-
-
 ## [7.0.1](https://github.com/techmovie/easy-upload/compare/7.0.0...7.0.1) (2025-07-18)
 
 
@@ -59,16 +68,12 @@
 * **new tracker:** pTcafe ([5c01335](https://github.com/techmovie/easy-upload/commit/5c013351fd955714200bd7effa944830ff86a91c)), closes [#338](https://github.com/techmovie/easy-upload/issues/338) [#327](https://github.com/techmovie/easy-upload/issues/327)
 * **new tracker:** railgun ([02618ea](https://github.com/techmovie/easy-upload/commit/02618ea82045f229c5979fa7679352f74aed2832)), closes [#361](https://github.com/techmovie/easy-upload/issues/361)
 
-
-
 # [7.0.0](https://github.com/techmovie/easy-upload/compare/7.0.0-beta.12...7.0.0) (2025-07-09)
 
 
 ### Bug Fixes
 
 * quick search when multiple tabs are open ([6c42286](https://github.com/techmovie/easy-upload/commit/6c42286d17474906d802d1d1f763e406711b5cdb))
-
-
 
 # [7.0.0-beta.12](https://github.com/techmovie/easy-upload/compare/7.0.0-beta.11...7.0.0-beta.12) (2025-07-03)
 
@@ -82,16 +87,12 @@
 
 * update extractScreenshots to reduce time of extracting torrent info ([444550c](https://github.com/techmovie/easy-upload/commit/444550c958dee36ad0e0668368b9a5770ec57a56))
 
-
-
 # [7.0.0-beta.11](https://github.com/techmovie/easy-upload/compare/7.0.0-beta.10...7.0.0-beta.11) (2025-06-30)
 
 
 ### Reverts
 
 * restore the changes of last version ([7e27b87](https://github.com/techmovie/easy-upload/commit/7e27b87c5ce0f93a0ab06c860d1e5cb6078bd1c0))
-
-
 
 # [7.0.0-beta.10](https://github.com/techmovie/easy-upload/compare/7.0.0-beta.9...7.0.0-beta.10) (2025-06-25)
 
@@ -100,16 +101,12 @@
 
 * render dom before retrieving torrent info ([da77410](https://github.com/techmovie/easy-upload/commit/da7741042115d95e1950d58f671d468616f38054))
 
-
-
 # [7.0.0-beta.9](https://github.com/techmovie/easy-upload/compare/7.0.0-beta.8...7.0.0-beta.9) (2025-06-24)
 
 
 ### Features
 
 * transfer legacy settings automatically ([24f4d45](https://github.com/techmovie/easy-upload/commit/24f4d457716e82004673b60c4c19f8bec9f0a456))
-
-
 
 # [7.0.0-beta.8](https://github.com/techmovie/easy-upload/compare/7.0.0-beta.7...7.0.0-beta.8) (2025-06-24)
 
@@ -118,16 +115,12 @@
 
 * beyondhd image ([c9b6a0a](https://github.com/techmovie/easy-upload/commit/c9b6a0a0a98ff5e2ef67a2c36e6432c06d8e1889))
 
-
-
 # [7.0.0-beta.7](https://github.com/techmovie/easy-upload/compare/7.0.0-beta.6...7.0.0-beta.7) (2025-06-24)
 
 
 ### Bug Fixes
 
 * restore setting fucntion ([3082766](https://github.com/techmovie/easy-upload/commit/30827665762ea982938f09e9a4c604efd36ae356))
-
-
 
 # [7.0.0-beta.6](https://github.com/techmovie/easy-upload/compare/7.0.0-beta.5...7.0.0-beta.6) (2025-06-24)
 
@@ -136,16 +129,12 @@
 
 * add restore legacy setting button in setting panel ([e22b69b](https://github.com/techmovie/easy-upload/commit/e22b69b4095102cdf395da799bddcd1c0b6e136e))
 
-
-
 # [7.0.0-beta.5](https://github.com/techmovie/easy-upload/compare/7.0.0-beta.4...7.0.0-beta.5) (2025-06-23)
 
 
 ### Bug Fixes
 
 * agsv yaml ([#351](https://github.com/techmovie/easy-upload/issues/351)) ([02d2b4e](https://github.com/techmovie/easy-upload/commit/02d2b4e10273658998ff8ff9e692889be20d9f40))
-
-
 
 # [7.0.0-beta.4](https://github.com/techmovie/easy-upload/compare/7.0.0-beta.3...7.0.0-beta.4) (2025-06-23)
 
@@ -154,16 +143,12 @@
 
 * agsv and ptsbao ([a81e8e8](https://github.com/techmovie/easy-upload/commit/a81e8e87cc75af8cd7ac7c334729782c6e5a0e48))
 
-
-
 # [7.0.0-beta.3](https://github.com/techmovie/easy-upload/compare/7.0.0-beta.2...7.0.0-beta.3) (2025-06-22)
 
 
 ### Bug Fixes
 
 * **agsv:** import agsv filler ([e622f4f](https://github.com/techmovie/easy-upload/commit/e622f4ffea7d179a6981f279d22b5b7565b00624))
-
-
 
 # [7.0.0-beta.2](https://github.com/techmovie/easy-upload/compare/7.0.0-beta.1...7.0.0-beta.2) (2025-06-22)
 
@@ -172,11 +157,7 @@
 
 * **agsv:** add agsv filler ([fd55f90](https://github.com/techmovie/easy-upload/commit/fd55f90e0ee7070c4632fead67c47fa88967efca))
 
-
-
 # [7.0.0-beta.1](https://github.com/techmovie/easy-upload/compare/6.1.4...7.0.0-beta.1) (2025-06-20)
-
-
 
 ## [6.1.4](https://github.com/techmovie/easy-upload/compare/6.1.3...6.1.4) (2025-03-11)
 
@@ -184,8 +165,6 @@
 ### Features
 
 * **new site:** ptzone ([567ba93](https://github.com/techmovie/easy-upload/commit/567ba93a0817e1310a4b070b1bb126c92d47927c))
-
-
 
 ## [6.1.3](https://github.com/techmovie/easy-upload/compare/6.1.2...6.1.3) (2025-03-07)
 
@@ -195,16 +174,12 @@
 * **new site:** carpt ([10a3d6a](https://github.com/techmovie/easy-upload/commit/10a3d6a08f7c582c998d47d802ae1f014e69e05f)), closes [#321](https://github.com/techmovie/easy-upload/issues/321)
 * **new site:** lemon ([5b7ca21](https://github.com/techmovie/easy-upload/commit/5b7ca217e8b75a94b89c968d8c6b80d74c95feba)), closes [#320](https://github.com/techmovie/easy-upload/issues/320)
 
-
-
 ## [6.1.2](https://github.com/techmovie/easy-upload/compare/6.1.1...6.1.2) (2025-03-07)
 
 
 ### Bug Fixes
 
 * analyze upload page to get site config ([f6df120](https://github.com/techmovie/easy-upload/commit/f6df120ce3b75ccb66ca978c5d2a68aa15f09dc1))
-
-
 
 ## [6.1.1](https://github.com/techmovie/easy-upload/compare/6.1.0...6.1.1) (2025-03-06)
 
@@ -213,16 +188,12 @@
 
 * analyze upload page to get site config ([a1e9dcf](https://github.com/techmovie/easy-upload/commit/a1e9dcf8a805adf4d3db0c5617f0166f3500e59a))
 
-
-
 # [6.1.0](https://github.com/techmovie/easy-upload/compare/6.0.11...6.1.0) (2025-03-06)
 
 
 ### Features
 
 * analyze upload page to get site config ([4f71939](https://github.com/techmovie/easy-upload/commit/4f7193967f8b47863f655a4466ddf9432711fd89))
-
-
 
 ## [6.0.11](https://github.com/techmovie/easy-upload/compare/6.0.10...6.0.11) (2025-03-03)
 
@@ -231,8 +202,6 @@
 
 * bring ptpimg back ([3067ab5](https://github.com/techmovie/easy-upload/commit/3067ab546d1ec321549318f51dd844eb62deb008))
 
-
-
 ## [6.0.10](https://github.com/techmovie/easy-upload/compare/6.0.9...6.0.10) (2025-01-09)
 
 
@@ -240,16 +209,12 @@
 
 * **hdt:** update annouce url for hdt ([b9bccfc](https://github.com/techmovie/easy-upload/commit/b9bccfc9986a1875790a8ff5e9a7f2a5806f1990))
 
-
-
 ## [6.0.9](https://github.com/techmovie/easy-upload/compare/6.0.8...6.0.9) (2025-01-09)
 
 
 ### Bug Fixes
 
 * **hdt:** update announce for hdt ([51b6a03](https://github.com/techmovie/easy-upload/commit/51b6a03e9cb6104bc0960d589c973974bd17829b))
-
-
 
 ## [6.0.8](https://github.com/techmovie/easy-upload/compare/6.0.7...6.0.8) (2024-12-25)
 
@@ -264,16 +229,12 @@
 
 * support huno ([29acebb](https://github.com/techmovie/easy-upload/commit/29acebb805114601b17172b31a5569cb072b61cb)), closes [#317](https://github.com/techmovie/easy-upload/issues/317)
 
-
-
 ## [6.0.7](https://github.com/techmovie/easy-upload/compare/6.0.6...6.0.7) (2024-12-09)
 
 
 ### Bug Fixes
 
 * fix issue for jquery on dev ([985523b](https://github.com/techmovie/easy-upload/commit/985523babe6bc6b7925bd5f61a17bbc0c4d1f18b))
-
-
 
 ## [6.0.6](https://github.com/techmovie/easy-upload/compare/6.0.5...6.0.6) (2024-11-28)
 
@@ -282,8 +243,6 @@
 
 * update red host ([c36bb54](https://github.com/techmovie/easy-upload/commit/c36bb5491f79085db9b045ce497102166938366e))
 
-
-
 ## [6.0.5](https://github.com/techmovie/easy-upload/compare/6.0.4...6.0.5) (2024-11-23)
 
 
@@ -291,16 +250,12 @@
 
 * add agsv ([#314](https://github.com/techmovie/easy-upload/issues/314)) ([deb8439](https://github.com/techmovie/easy-upload/commit/deb843954e04fdaa83857b367cca5ad3520fb689))
 
-
-
 ## [6.0.4](https://github.com/techmovie/easy-upload/compare/6.0.3...6.0.4) (2024-11-20)
 
 
 ### Bug Fixes
 
 * fix sonner toster and imdb error ([1084e25](https://github.com/techmovie/easy-upload/commit/1084e2583e23001b05ce9b9fb1450d52e101a7df))
-
-
 
 ## [6.0.3](https://github.com/techmovie/easy-upload/compare/6.0.2...6.0.3) (2024-10-22)
 
@@ -313,8 +268,6 @@
 ### Reverts
 
 * Revert "chore(release): 6.0.3" ([4181172](https://github.com/techmovie/easy-upload/commit/4181172fcfb3c6ed8fcb1ec08d0e77554a256b84))
-
-
 
 ## [6.0.2](https://github.com/techmovie/easy-upload/compare/6.0.1...6.0.2) (2024-10-22)
 
@@ -330,11 +283,7 @@
 * Revert "chore: update pkg version 6.0.2" ([48ccf89](https://github.com/techmovie/easy-upload/commit/48ccf897f12bd56e3e19d46672123c6c99d26956))
 * Revert "chore(release): 6.0.2" ([90be6da](https://github.com/techmovie/easy-upload/commit/90be6da1625a4c4c6efca33c60afbf4cd824dd4e))
 
-
-
 ## [6.0.1](https://github.com/techmovie/easy-upload/compare/6.0.0...6.0.1) (2024-09-28)
-
-
 
 # [6.0.0](https://github.com/techmovie/easy-upload/compare/5.2.2...6.0.0) (2024-09-28)
 
@@ -349,16 +298,12 @@
 
 * **hdb:** revert pr [#265](https://github.com/techmovie/easy-upload/issues/265) ([312391d](https://github.com/techmovie/easy-upload/commit/312391d07bdf8425601a7065a71539ba28ecbdce))
 
-
-
 ## [5.2.2](https://github.com/techmovie/easy-upload/compare/5.2.1...5.2.2) (2024-09-24)
 
 
 ### Bug Fixes
 
 * **douban:** avoid redirects ([3636862](https://github.com/techmovie/easy-upload/commit/363686240194696c2a74ea848fe107b935a81df3)), closes [#306](https://github.com/techmovie/easy-upload/issues/306)
-
-
 
 ## [5.2.1](https://github.com/techmovie/easy-upload/compare/5.2.0...5.2.1) (2024-09-23)
 
@@ -368,8 +313,6 @@
 * **fnp:** update fnp config ([77a377d](https://github.com/techmovie/easy-upload/commit/77a377de51422045a1c6b9b4a4e2a4e1ad8f56b9))
 * **ssd:** torrent titile is missing ([db6f30e](https://github.com/techmovie/easy-upload/commit/db6f30e56c3f89a4b5435ef456de57c41627934b))
 
-
-
 # [5.2.0](https://github.com/techmovie/easy-upload/compare/5.1.12...5.2.0) (2024-09-22)
 
 
@@ -378,8 +321,6 @@
 * deprecate mediainfo ([1400ccd](https://github.com/techmovie/easy-upload/commit/1400ccd7bff8368f6ac1ada3f3223ee610ac8914))
 * **douban:** avoid redirects ([fd3aa53](https://github.com/techmovie/easy-upload/commit/fd3aa5359116cda7aa93d7636e55670be6d157ee))
 * **hanhan:** fix bug when imdb is missing ([fd0c7e1](https://github.com/techmovie/easy-upload/commit/fd0c7e1ae57ac7bb85fea8b8a53a6fb2f247b5d3))
-
-
 
 ## [5.1.12](https://github.com/techmovie/easy-upload/compare/5.1.11...5.1.12) (2024-08-05)
 
@@ -394,8 +335,6 @@
 * 适配猪猪 ([#301](https://github.com/techmovie/easy-upload/issues/301)) ([5c36fd1](https://github.com/techmovie/easy-upload/commit/5c36fd156cd6b1ce86187728cf7c5db0b991ce80))
 * support the offer page on the pter site ([#299](https://github.com/techmovie/easy-upload/issues/299)) ([59565fb](https://github.com/techmovie/easy-upload/commit/59565fb9985a55685ffa26991dbe990d9734f67c))
 
-
-
 ## [5.1.11](https://github.com/techmovie/easy-upload/compare/5.1.10...5.1.11) (2024-07-30)
 
 
@@ -405,16 +344,12 @@
 * np type site use quote instead of align things ([#297](https://github.com/techmovie/easy-upload/issues/297)) ([f73c541](https://github.com/techmovie/easy-upload/commit/f73c54156539385eca4b525a0630274acf224ba7))
 * torrent download link ([#298](https://github.com/techmovie/easy-upload/issues/298)) ([ce70c28](https://github.com/techmovie/easy-upload/commit/ce70c283a4eb89052ea6618e66724bc3b4fd0143))
 
-
-
 ## [5.1.10](https://github.com/techmovie/easy-upload/compare/5.1.9...5.1.10) (2024-07-19)
 
 
 ### Bug Fixes
 
 * replace jquery cdn ([ae22b17](https://github.com/techmovie/easy-upload/commit/ae22b17e3e0f87fc6cb5215927487335b4aac0f5))
-
-
 
 ## [5.1.9](https://github.com/techmovie/easy-upload/compare/5.1.8...5.1.9) (2024-07-19)
 
@@ -428,8 +363,6 @@
 
 * remove down site ([#294](https://github.com/techmovie/easy-upload/issues/294)) ([29def4a](https://github.com/techmovie/easy-upload/commit/29def4a78e328a6a04a99bee70a40b0b5830b249))
 
-
-
 ## [5.1.8](https://github.com/techmovie/easy-upload/compare/5.1.7...5.1.8) (2024-07-03)
 
 
@@ -441,8 +374,6 @@
 ### Features
 
 * frds music title ([#293](https://github.com/techmovie/easy-upload/issues/293)) ([0ee4b40](https://github.com/techmovie/easy-upload/commit/0ee4b40cb34834c4cddce3208d6deb37aa14e5f2))
-
-
 
 ## [5.1.7](https://github.com/techmovie/easy-upload/compare/5.1.6...5.1.7) (2024-06-21)
 
@@ -461,8 +392,6 @@
 * **mtv:** support more tag ([#289](https://github.com/techmovie/easy-upload/issues/289)) ([b6edb73](https://github.com/techmovie/easy-upload/commit/b6edb73341990d7f07d09c5593ec84968a8c63fd))
 * support upload to mtv ([#283](https://github.com/techmovie/easy-upload/issues/283)) ([2ab8f8f](https://github.com/techmovie/easy-upload/commit/2ab8f8fc357bbd50db1839e9ce08b3bdd9317932))
 
-
-
 ## [5.1.6](https://github.com/techmovie/easy-upload/compare/5.1.5...5.1.6) (2024-06-12)
 
 
@@ -472,8 +401,6 @@
 * **mteam:** remove mediainfo from description ([4e30d08](https://github.com/techmovie/easy-upload/commit/4e30d08fac094d37ac3822be71e67fb5eb57b324))
 * **readme:** remove lemon things ([#281](https://github.com/techmovie/easy-upload/issues/281)) ([e2edf53](https://github.com/techmovie/easy-upload/commit/e2edf53e6b7938c68831c930c2eb3602dcb66f33))
 * **u3d:** some thing ([#282](https://github.com/techmovie/easy-upload/issues/282)) ([55c34d4](https://github.com/techmovie/easy-upload/commit/55c34d49fc3ae138e25c44326b62bbe33df8ffb0))
-
-
 
 ## [5.1.5](https://github.com/techmovie/easy-upload/compare/5.1.4...5.1.5) (2024-06-06)
 
@@ -486,8 +413,6 @@
 * **frds:** avoid get two mediainfo bbcode ([#280](https://github.com/techmovie/easy-upload/issues/280)) ([28c002a](https://github.com/techmovie/easy-upload/commit/28c002aa8dad0ca3bd242f7c7af66153c4fc59f8))
 * some sites can be handled target info more than one time ([f10a654](https://github.com/techmovie/easy-upload/commit/f10a654a29588a887b4fef4ff86b1f86a89e52f3))
 
-
-
 ## [5.1.4](https://github.com/techmovie/easy-upload/compare/5.1.3...5.1.4) (2024-06-02)
 
 
@@ -495,16 +420,12 @@
 
 * bugfix for red and ops ([2e39a5a](https://github.com/techmovie/easy-upload/commit/2e39a5aa6d595d9718414b0317ecce4035297554))
 
-
-
 ## [5.1.3](https://github.com/techmovie/easy-upload/compare/5.1.2...5.1.3) (2024-06-01)
 
 
 ### Bug Fixes
 
 * **dicmusic:** remove extra string ([6c5df5c](https://github.com/techmovie/easy-upload/commit/6c5df5cce235fd982402032775ad3ee00e18585d))
-
-
 
 ## [5.1.2](https://github.com/techmovie/easy-upload/compare/5.1.1...5.1.2) (2024-06-01)
 
@@ -514,16 +435,12 @@
 * **dicmusic:** 处理非英文字符 ([b3cf8b0](https://github.com/techmovie/easy-upload/commit/b3cf8b025784615717ef99c952e83531a81ceac0))
 * fix quick search for music tracker ([069713f](https://github.com/techmovie/easy-upload/commit/069713fefa8abf8c6c6af8067d677fddf1c00542))
 
-
-
 ## [5.1.1](https://github.com/techmovie/easy-upload/compare/5.1.0...5.1.1) (2024-05-30)
 
 
 ### Features
 
 * **new site:** orpheus ([7b5edd8](https://github.com/techmovie/easy-upload/commit/7b5edd8836b1818180d9fa7f2abade16e9a7da3b)), closes [#250](https://github.com/techmovie/easy-upload/issues/250)
-
-
 
 # [5.1.0](https://github.com/techmovie/easy-upload/compare/5.0.2...5.1.0) (2024-05-28)
 
@@ -539,8 +456,6 @@
 * **dicmusic:** support to transfer to dic ([95ca202](https://github.com/techmovie/easy-upload/commit/95ca2028bc372f21d643834ce0fa87249f7ab37c)), closes [#127](https://github.com/techmovie/easy-upload/issues/127) [#277](https://github.com/techmovie/easy-upload/issues/277)
 * **red:** support to transfer to red ([122ebf7](https://github.com/techmovie/easy-upload/commit/122ebf7bfdbc88cfc9581fbe282c9938f829e600)), closes [#127](https://github.com/techmovie/easy-upload/issues/127)
 
-
-
 ## [5.0.2](https://github.com/techmovie/easy-upload/compare/5.0.1...5.0.2) (2024-05-27)
 
 
@@ -548,8 +463,6 @@
 
 * **gpw:** bugfix ([60075f2](https://github.com/techmovie/easy-upload/commit/60075f2fede268ed5f76d3db5d621774528c6c47))
 * **ptp:** fix regex for img match ([4b2da82](https://github.com/techmovie/easy-upload/commit/4b2da8281b725e4b588e96beb048d07b409d6489))
-
-
 
 ## [5.0.1](https://github.com/techmovie/easy-upload/compare/5.0.0...5.0.1) (2024-05-25)
 
@@ -564,8 +477,6 @@
 * **mteam:** support to get torrent link ([5523bc9](https://github.com/techmovie/easy-upload/commit/5523bc9e92a48494b92eab127e714f1c3b168262))
 * **ttg:** support to fill douban id ([cde8e8f](https://github.com/techmovie/easy-upload/commit/cde8e8f83afbbdc3352cc3a0d8bd606f5eb15779))
 
-
-
 # [5.0.0](https://github.com/techmovie/easy-upload/compare/4.2.1...5.0.0) (2024-05-24)
 
 
@@ -579,8 +490,6 @@
 
 * add torrent transfering support for batch transfer ([f5bed84](https://github.com/techmovie/easy-upload/commit/f5bed84a9f5d899822670c317c990b52c32cf575))
 * support to transfer torrent file fix([#255](https://github.com/techmovie/easy-upload/issues/255)) ([ef8ac2f](https://github.com/techmovie/easy-upload/commit/ef8ac2facc357edd04e9acf4e016e4d64a561f4e))
-
-
 
 ## [4.2.1](https://github.com/techmovie/easy-upload/compare/4.2.0...4.2.1) (2024-05-23)
 
@@ -604,8 +513,6 @@
 * support Korean ([baa0b7f](https://github.com/techmovie/easy-upload/commit/baa0b7f922afd6a7fe2ef0ab5ff53fd0ba7b6116))
 * **tjupt:** support mediainfo ([#273](https://github.com/techmovie/easy-upload/issues/273)) ([80f93e1](https://github.com/techmovie/easy-upload/commit/80f93e1378c08b6026782dcb343998ac9142a32b))
 
-
-
 # [4.2.0](https://github.com/techmovie/easy-upload/compare/4.1.1...4.2.0) (2024-03-11)
 
 
@@ -620,8 +527,6 @@
 * **new site:** fearnopeer ([d551afb](https://github.com/techmovie/easy-upload/commit/d551afb8a3fa34259bd98fe9a36974643b430720))
 * remove azusa ([2d8205c](https://github.com/techmovie/easy-upload/commit/2d8205c990f0e344380f453b75e0dd176242b88e))
 
-
-
 ## [4.1.1](https://github.com/techmovie/easy-upload/compare/4.1.0...4.1.1) (2024-01-09)
 
 
@@ -634,8 +539,6 @@
 ### Features
 
 * add R3SUB ([ef2871e](https://github.com/techmovie/easy-upload/commit/ef2871e7537a02f5a586f8f2cc0ed0f54696ed1f))
-
-
 
 # [4.1.0](https://github.com/techmovie/easy-upload/compare/4.0.0...4.1.0) (2023-11-14)
 
@@ -651,11 +554,7 @@
 * **new site:** cinematik ([#263](https://github.com/techmovie/easy-upload/issues/263)) ([a4ed83e](https://github.com/techmovie/easy-upload/commit/a4ed83e2b055b6b526365c718abf8679d3796b1b))
 * resize ico file ([60e413e](https://github.com/techmovie/easy-upload/commit/60e413e0fe5db0bfc7a3733c4e288d7cecf00df0))
 
-
-
 # [4.0.0](https://github.com/techmovie/easy-upload/compare/3.2.23...4.0.0) (2023-11-02)
-
-
 
 ## [3.2.23](https://github.com/techmovie/easy-upload/compare/3.2.22...3.2.23) (2023-10-27)
 
@@ -665,16 +564,12 @@
 * get poster from ptp when transfer to kg ([11d152f](https://github.com/techmovie/easy-upload/commit/11d152f12d7b5b6b28ad5dd852724d45a1a64c8e))
 * **hh:** adap to the new ui ([68af0c1](https://github.com/techmovie/easy-upload/commit/68af0c19374151768948741436617be558c1b77d))
 
-
-
 ## [3.2.22](https://github.com/techmovie/easy-upload/compare/3.2.21...3.2.22) (2023-10-10)
 
 
 ### Bug Fixes
 
 * remove minify config ([245b740](https://github.com/techmovie/easy-upload/commit/245b7404189f259abcfe5074dcfd0ed9134b131f))
-
-
 
 ## [3.2.21](https://github.com/techmovie/easy-upload/compare/3.2.20...3.2.21) (2023-10-10)
 
@@ -684,16 +579,12 @@
 * **blu:** update uploadPath ([621c690](https://github.com/techmovie/easy-upload/commit/621c6902822a5d2bb0f63c0330e2e9edd0e778df))
 * transfer images for hdb ([f1083d2](https://github.com/techmovie/easy-upload/commit/f1083d28fdd6d08931a4b5eef1f670359a05cde8)), closes [#262](https://github.com/techmovie/easy-upload/issues/262)
 
-
-
 ## [3.2.20](https://github.com/techmovie/easy-upload/compare/3.2.19...3.2.20) (2023-09-13)
 
 
 ### Features
 
 * bring back torrentInfo as fragment identifier ([#261](https://github.com/techmovie/easy-upload/issues/261)) ([a8ca5e6](https://github.com/techmovie/easy-upload/commit/a8ca5e65f6ee2b10ac38ec99cbc4b508cd9bf479))
-
-
 
 ## [3.2.19](https://github.com/techmovie/easy-upload/compare/3.2.18...3.2.19) (2023-08-29)
 
@@ -704,8 +595,6 @@
 * incomplete regular expression for hostnames ([af8fc40](https://github.com/techmovie/easy-upload/commit/af8fc40ecbc1b98e693a9629e78368e400183bf2)), closes [#244](https://github.com/techmovie/easy-upload/issues/244)
 * remove bB and update hostname for chdbits ([57699aa](https://github.com/techmovie/easy-upload/commit/57699aa9e652c48d6d29306f76b0dd157de5f001))
 * **zhuque:** some change ([#257](https://github.com/techmovie/easy-upload/issues/257)) ([cfa4d08](https://github.com/techmovie/easy-upload/commit/cfa4d08c57497c8a8e6a7a5a7c471db90bb178cc))
-
-
 
 ## [3.2.18](https://github.com/techmovie/easy-upload/compare/3.2.17...3.2.18) (2023-07-05)
 
@@ -726,8 +615,6 @@
 * **red:** add music log to source ([17a9d03](https://github.com/techmovie/easy-upload/commit/17a9d034e3eda834546b608be0299dea1d18a4ad))
 * **RL:** add Red Leaves ([#254](https://github.com/techmovie/easy-upload/issues/254)) ([c52be4e](https://github.com/techmovie/easy-upload/commit/c52be4e5c5fdcd4feba2eaf39c503b17cc86b0f3))
 
-
-
 ## [3.2.17](https://github.com/techmovie/easy-upload/compare/3.2.16...3.2.17) (2023-06-15)
 
 
@@ -742,8 +629,6 @@
 * **add:** add KamePT ([#245](https://github.com/techmovie/easy-upload/issues/245)) ([ff4b775](https://github.com/techmovie/easy-upload/commit/ff4b7754b8cdebe49daa210ed9cb2bad57ac3043))
 * **lst:** adds support of LST ([#237](https://github.com/techmovie/easy-upload/issues/237)) ([fe391f7](https://github.com/techmovie/easy-upload/commit/fe391f777116cb91f4673616cff662ce6582b946))
 * **quick search:** add support for hiding the quick search area ([4502595](https://github.com/techmovie/easy-upload/commit/45025957afff1591b4958b93d3629377c045d05d)), closes [#241](https://github.com/techmovie/easy-upload/issues/241)
-
-
 
 ## [3.2.16](https://github.com/techmovie/easy-upload/compare/3.2.15...3.2.16) (2023-03-26)
 
@@ -760,8 +645,6 @@
 
 * **MDU:** support ([#232](https://github.com/techmovie/easy-upload/issues/232)) ([946ab48](https://github.com/techmovie/easy-upload/commit/946ab48da53644ea394c85dedfe3292365072b28))
 
-
-
 ## [3.2.15](https://github.com/techmovie/easy-upload/compare/3.2.14...3.2.15) (2023-03-07)
 
 
@@ -774,15 +657,13 @@
 * **reg:** change empty tag regex ([889c048](https://github.com/techmovie/easy-upload/commit/889c0485af03378a034d8512d56e569fd5010039)), closes [#230](https://github.com/techmovie/easy-upload/issues/230)
 * remove replaceall ([93185f5](https://github.com/techmovie/easy-upload/commit/93185f588d6b79a2f9d1c0d96bcb841272ebed7c))
 * revert release.js ([40bfe64](https://github.com/techmovie/easy-upload/commit/40bfe64914526fce61b12e101d7e6b2ca9d5bb87))
-* some patch ([#220](https://github.com/techmovie/easy-upload/issues/220)) ([50aa090](https://github.com/techmovie/easy-upload/commit/50aa090845a3e147b10724e25c7400287203ec48)), closes [/github.com/techmovie/easy-upload/issues/221#issuecomment-1426707518](https://github.com//github.com/techmovie/easy-upload/issues/221/issues/issuecomment-1426707518)
+* some patch ([#220](https://github.com/techmovie/easy-upload/issues/220)) ([50aa090](https://github.com/techmovie/easy-upload/commit/50aa090845a3e147b10724e25c7400287203ec48))
 
 
 ### Features
 
 * some change ([#229](https://github.com/techmovie/easy-upload/issues/229)) ([67994a5](https://github.com/techmovie/easy-upload/commit/67994a5a6a71435989ac1ece8a8890f749f4b06a)), closes [#230](https://github.com/techmovie/easy-upload/issues/230) [#223](https://github.com/techmovie/easy-upload/issues/223)
 * some fix and support get tag chinese subtitle from mediainfo ([#228](https://github.com/techmovie/easy-upload/issues/228)) ([217f6b7](https://github.com/techmovie/easy-upload/commit/217f6b79d743def88e5a6ec9b98fa79cf92e3dba))
-
-
 
 ## [3.2.14](https://github.com/techmovie/easy-upload/compare/3.2.13...3.2.14) (2023-02-05)
 
@@ -800,8 +681,6 @@
 * **speedapp:** support ([#191](https://github.com/techmovie/easy-upload/issues/191)) ([954b1c5](https://github.com/techmovie/easy-upload/commit/954b1c595fe55f886eb5f8be3410fbfd6dfbf063))
 * update u3d ([419d5b6](https://github.com/techmovie/easy-upload/commit/419d5b6c048abaa5b2ff441b612ec9c9fd724e73))
 
-
-
 ## [3.2.13](https://github.com/techmovie/easy-upload/compare/3.2.12...3.2.13) (2022-11-21)
 
 
@@ -810,8 +689,6 @@
 * **hdb:** hdb desc ([#208](https://github.com/techmovie/easy-upload/issues/208)) ([d884bbf](https://github.com/techmovie/easy-upload/commit/d884bbfbe036c0282ed9850097e02aefa97ab509))
 * **ttg:** ttg subtitle ([d8128c7](https://github.com/techmovie/easy-upload/commit/d8128c7aec038130be5eabfecbc2c99d0ad0ce9a)), closes [#205](https://github.com/techmovie/easy-upload/issues/205)
 
-
-
 ## [3.2.12](https://github.com/techmovie/easy-upload/compare/3.2.11...3.2.12) (2022-10-21)
 
 
@@ -819,8 +696,6 @@
 
 * **ptp:** problem with standard bbcode img ([#203](https://github.com/techmovie/easy-upload/issues/203)) ([a67877c](https://github.com/techmovie/easy-upload/commit/a67877c2906cf0fe4f22698a565b8dd3e238532c))
 * **tags:** chinese subtitle tag matcher ([dd7a216](https://github.com/techmovie/easy-upload/commit/dd7a2168c00e9d56b246593f7de9c3dbfc3a7355)), closes [#204](https://github.com/techmovie/easy-upload/issues/204)
-
-
 
 ## [3.2.11](https://github.com/techmovie/easy-upload/compare/3.2.10...3.2.11) (2022-09-04)
 
@@ -837,8 +712,6 @@
 
 * remove unicode space characters ([#198](https://github.com/techmovie/easy-upload/issues/198)) ([4b701bf](https://github.com/techmovie/easy-upload/commit/4b701bf2f1d5151e84b8e90a7aa4f23068a1718b))
 
-
-
 ## [3.2.10](https://github.com/techmovie/easy-upload/compare/3.2.9...3.2.10) (2022-08-29)
 
 
@@ -846,16 +719,12 @@
 
 * support gallery name of hdb img host ([5f92fcb](https://github.com/techmovie/easy-upload/commit/5f92fcbb1b80b98f5094d4d22fd4fef1d1134b76))
 
-
-
 ## [3.2.9](https://github.com/techmovie/easy-upload/compare/3.2.8...3.2.9) (2022-08-29)
 
 
 ### Features
 
 * support img host of hdb ([1a18896](https://github.com/techmovie/easy-upload/commit/1a18896ea2408adb0632b9b24d106e0ca58c0e2f))
-
-
 
 ## [3.2.8](https://github.com/techmovie/easy-upload/compare/3.2.7...3.2.8) (2022-08-29)
 
@@ -865,8 +734,6 @@
 * add quote mark before center mark ([dcf70ae](https://github.com/techmovie/easy-upload/commit/dcf70aed78fa2050f4880de30d0741e991ef08cc))
 * **bhd:** add comparison imgs support ([3423d5a](https://github.com/techmovie/easy-upload/commit/3423d5a845c787173f138345e4c89575bc9bd25d))
 * **ttg:** add comparison imgs support ([cbce406](https://github.com/techmovie/easy-upload/commit/cbce40699fb1b76fad5cec3b48a2304f309800a6))
-
-
 
 ## [3.2.7](https://github.com/techmovie/easy-upload/compare/3.2.6...3.2.7) (2022-08-25)
 
@@ -880,8 +747,6 @@
 
 * support imgbox ([000325f](https://github.com/techmovie/easy-upload/commit/000325f3997712312a225ec82141af3846b354a0))
 
-
-
 ## [3.2.6](https://github.com/techmovie/easy-upload/compare/3.2.5...3.2.6) (2022-08-23)
 
 
@@ -889,8 +754,6 @@
 
 * **pter:** support [imgn][/img] comparison bbcode ([2339b5d](https://github.com/techmovie/easy-upload/commit/2339b5da258ebfb4560dac6f07484ca58c3489bf))
 * remove useless site ([4b70b3a](https://github.com/techmovie/easy-upload/commit/4b70b3a5021e037baddd5955e83aa41ec4cc0004))
-
-
 
 ## [3.2.5](https://github.com/techmovie/easy-upload/compare/3.2.4...3.2.5) (2022-08-18)
 
@@ -905,8 +768,6 @@
 ### Features
 
 * **new site:** add azusa ([8ad03ae](https://github.com/techmovie/easy-upload/commit/8ad03ae593bfa0c4ca60064743e8e4d5eae77543))
-
-
 
 ## [3.2.4](https://github.com/techmovie/easy-upload/compare/3.2.3...3.2.4) (2022-07-27)
 
@@ -923,16 +784,12 @@
 
 * **frds:** support get doubaninfo ([#194](https://github.com/techmovie/easy-upload/issues/194)) ([5844f8d](https://github.com/techmovie/easy-upload/commit/5844f8d422256502080fe3cebba5f8ee8a2635de))
 
-
-
 ## [3.2.3](https://github.com/techmovie/easy-upload/compare/3.2.2...3.2.3) (2022-06-16)
 
 
 ### Features
 
 * **frds:** in and out update function support ([#188](https://github.com/techmovie/easy-upload/issues/188)) ([2ccd68f](https://github.com/techmovie/easy-upload/commit/2ccd68fe434aad1ee725a462bb8b9c59be290f86))
-
-
 
 ## [3.2.2](https://github.com/techmovie/easy-upload/compare/3.2.1...3.2.2) (2022-06-10)
 
@@ -942,8 +799,6 @@
 * preview button for GPW ([#185](https://github.com/techmovie/easy-upload/issues/185)) ([e156501](https://github.com/techmovie/easy-upload/commit/e15650133a479f66f8790577944c573d923fc33c))
 * **uhd:** 部分转种没识别到Blu-ray ([ec4dbf4](https://github.com/techmovie/easy-upload/commit/ec4dbf451c89a20db2423e0866a4bb533d25aa55)), closes [#186](https://github.com/techmovie/easy-upload/issues/186)
 
-
-
 ## [3.2.1](https://github.com/techmovie/easy-upload/compare/3.2.0...3.2.1) (2022-06-05)
 
 
@@ -952,16 +807,12 @@
 * **new site:** support SpeedApp ([#184](https://github.com/techmovie/easy-upload/issues/184)) ([6f548b9](https://github.com/techmovie/easy-upload/commit/6f548b9708df3cde47208fda0c65862275b43174))
 * update SUPPORTED.md ([4d3bce3](https://github.com/techmovie/easy-upload/commit/4d3bce35e45171790feed2c897edba37eaa4bb54))
 
-
-
 # [3.2.0](https://github.com/techmovie/easy-upload/compare/3.1.14...3.2.0) (2022-06-03)
 
 
 ### Bug Fixes
 
 * update the way of passing url params ([444d775](https://github.com/techmovie/easy-upload/commit/444d775ce4939cc0844b49885aa97a0982e5fe39))
-
-
 
 ## [3.1.14](https://github.com/techmovie/easy-upload/compare/3.1.13...3.1.14) (2022-06-03)
 
@@ -976,16 +827,12 @@
 
 * **new site:** gainBound ([63352b8](https://github.com/techmovie/easy-upload/commit/63352b8a60175474b3f0aa3c9c3efbb6daf14f04))
 
-
-
 ## [3.1.13](https://github.com/techmovie/easy-upload/compare/3.1.12...3.1.13) (2022-05-01)
 
 
 ### Features
 
 * **new site:** support MTV ([731c020](https://github.com/techmovie/easy-upload/commit/731c020c779434130c3a6d92262a352466fab121)), closes [#182](https://github.com/techmovie/easy-upload/issues/182)
-
-
 
 ## [3.1.12](https://github.com/techmovie/easy-upload/compare/3.1.11...3.1.12) (2022-04-15)
 
@@ -995,8 +842,6 @@
 * **avz:** exclude none-torrent pages ([7a5e2e0](https://github.com/techmovie/easy-upload/commit/7a5e2e06e73c317cd2daee3dd9b0aba4c71718fb))
 * **ssd:** remove extra blankspace ([4a087bd](https://github.com/techmovie/easy-upload/commit/4a087bd151179c5f803eb3040fa9f5be733b11a2))
 
-
-
 ## [3.1.11](https://github.com/techmovie/easy-upload/compare/3.1.10...3.1.11) (2022-04-03)
 
 
@@ -1004,16 +849,12 @@
 
 * **acm:** get wrong videoType ([eca79a3](https://github.com/techmovie/easy-upload/commit/eca79a3c0bef229d39b949289903ef0397ce26f4))
 
-
-
 ## [3.1.10](https://github.com/techmovie/easy-upload/compare/3.1.9...3.1.10) (2022-03-27)
 
 
 ### Features
 
 * **new site:** support RED DicMusic for source ([8555720](https://github.com/techmovie/easy-upload/commit/8555720ddf74cf7687766cf1d16fbc867c1c0a31)), closes [#127](https://github.com/techmovie/easy-upload/issues/127)
-
-
 
 ## [3.1.9](https://github.com/techmovie/easy-upload/compare/3.1.8...3.1.9) (2022-03-19)
 
@@ -1030,8 +871,6 @@
 
 * frds支持转入 ([#178](https://github.com/techmovie/easy-upload/issues/178)) ([4678dba](https://github.com/techmovie/easy-upload/commit/4678dba9a3e48b8d0c00854988f0b86c4fd23f07))
 * **ttg:** change douban description position ([dba8f31](https://github.com/techmovie/easy-upload/commit/dba8f318984bd9544c8f0a701132bd5bdb4ce361)), closes [#180](https://github.com/techmovie/easy-upload/issues/180)
-
-
 
 ## [3.1.8](https://github.com/techmovie/easy-upload/compare/3.1.7...3.1.8) (2022-03-17)
 
@@ -1050,16 +889,12 @@
 
 * **kg:** add poster to decription ([9bbdf18](https://github.com/techmovie/easy-upload/commit/9bbdf18954b8cb2628a85802b833769cb0bae692))
 
-
-
 ## [3.1.7](https://github.com/techmovie/easy-upload/compare/3.1.6...3.1.7) (2022-03-12)
 
 
 ### Bug Fixes
 
 * **gpw:** adapt to gpw's new page selectors ([fd5032f](https://github.com/techmovie/easy-upload/commit/fd5032f8be7b6461b8d5ab9b21a72e21cb121f9f))
-
-
 
 ## [3.1.6](https://github.com/techmovie/easy-upload/compare/3.1.5...3.1.6) (2022-03-05)
 
@@ -1070,8 +905,6 @@
 * **quick search:** add BLUEBIRD ([87a1a1a](https://github.com/techmovie/easy-upload/commit/87a1a1a725d9ac15d245bc811150d417b80c94da))
 * **scripts:** add icoFetcher ([6fea7ed](https://github.com/techmovie/easy-upload/commit/6fea7eda3d7bc12c4ce3f73558344c10a0fe2485))
 
-
-
 ## [3.1.5](https://github.com/techmovie/easy-upload/compare/3.1.4...3.1.5) (2022-02-27)
 
 
@@ -1080,8 +913,6 @@
 * **bdc:** support Bdc target ([09fd3a4](https://github.com/techmovie/easy-upload/commit/09fd3a48c8b5f8805680f787b18118760fcc28c3))
 * support filling in pter for Bdc ([1571201](https://github.com/techmovie/easy-upload/commit/1571201ea8be2e500ca3a8b10508a53a87817c7c))
 
-
-
 ## [3.1.4](https://github.com/techmovie/easy-upload/compare/3.1.3...3.1.4) (2022-02-23)
 
 
@@ -1089,8 +920,6 @@
 
 * **haresclud:** get extra screenshots and add quick search param ([6fd6533](https://github.com/techmovie/easy-upload/commit/6fd6533171a934d692a0da4aac94e26ad4e3ebdb))
 * **uhd aither:** script can't show  on these two ([6b2f0c3](https://github.com/techmovie/easy-upload/commit/6b2f0c37204761678ba259b7f67fcd6ae598eace))
-
-
 
 ## [3.1.3](https://github.com/techmovie/easy-upload/compare/3.1.2...3.1.3) (2022-02-19)
 
@@ -1105,8 +934,6 @@
 
 * **quick search:** add Batch search button ([395a5c9](https://github.com/techmovie/easy-upload/commit/395a5c9330334415f67794ac004800dc30ee7305)), closes [#154](https://github.com/techmovie/easy-upload/issues/154)
 
-
-
 ## [3.1.2](https://github.com/techmovie/easy-upload/compare/3.1.1...3.1.2) (2022-02-16)
 
 
@@ -1119,8 +946,6 @@
 ### Features
 
 * **quick search:** split sites for subtitles to single line ([075f3f0](https://github.com/techmovie/easy-upload/commit/075f3f0ff0d5a530d6367358ad2ad868e23386b4)), closes [#170](https://github.com/techmovie/easy-upload/issues/170)
-
-
 
 ## [3.1.1](https://github.com/techmovie/easy-upload/compare/3.1.0...3.1.1) (2022-02-13)
 
@@ -1138,8 +963,6 @@
 
 * **new site:** 增加FBCD以及烧包的调整 ([#163](https://github.com/techmovie/easy-upload/issues/163)) ([45e664e](https://github.com/techmovie/easy-upload/commit/45e664e5e5a0d26284bcde6079749a74c9e94040))
 
-
-
 # [3.1.0](https://github.com/techmovie/easy-upload/compare/3.0.3...3.1.0) (2022-02-02)
 
 
@@ -1156,8 +979,6 @@
 * **new site:** support hdzone ([7f82cdc](https://github.com/techmovie/easy-upload/commit/7f82cdc6e814ee1b61be4c8a05f9c71d2ec4eb81)), closes [#142](https://github.com/techmovie/easy-upload/issues/142)
 * **new site:** support ptmsg ([02a0463](https://github.com/techmovie/easy-upload/commit/02a0463d3149fca1aade6053eb5cac644fb3850a)), closes [#144](https://github.com/techmovie/easy-upload/issues/144)
 
-
-
 ## [3.0.3](https://github.com/techmovie/easy-upload/compare/3.0.2...3.0.3) (2022-01-30)
 
 
@@ -1166,8 +987,6 @@
 * bB genre ([ed0c715](https://github.com/techmovie/easy-upload/commit/ed0c715741a9a8747001db34ff2994aec270844f))
 * **emp:** multiple domains ([656d1c0](https://github.com/techmovie/easy-upload/commit/656d1c0e504921665e1d8dec7712499c980b77c1)), closes [#151](https://github.com/techmovie/easy-upload/issues/151)
 * **sc:** change sc upload methods ([c6c1380](https://github.com/techmovie/easy-upload/commit/c6c138007e7ee35f5199cbafb47bf471e87521e1))
-
-
 
 ## [3.0.2](https://github.com/techmovie/easy-upload/compare/3.0.1...3.0.2) (2022-01-13)
 
@@ -1182,8 +1001,6 @@
 
 * **bhd:** bhd target 逻辑重写 ([83f17f1](https://github.com/techmovie/easy-upload/commit/83f17f19569fc888ff7b67f62a2dac649573e16d))
 
-
-
 ## [3.0.1](https://github.com/techmovie/easy-upload/compare/3.0.0...3.0.1) (2022-01-09)
 
 
@@ -1193,8 +1010,6 @@
 * 站点搜索配置列表展示不全 ([439e4ae](https://github.com/techmovie/easy-upload/commit/439e4aebf3acbb95dddf4684de94395bd6414f6e))
 * cinemaz favicon ([8c838f3](https://github.com/techmovie/easy-upload/commit/8c838f349ef61ec80c6593a343d1c12c79d43ab8))
 * uploadimgclosed config ([a3158f0](https://github.com/techmovie/easy-upload/commit/a3158f01c1501a957b5781185d252d84f2c8d61e))
-
-
 
 # [3.0.0](https://github.com/techmovie/easy-upload/compare/2.4.3...3.0.0) (2022-01-08)
 
@@ -1210,8 +1025,6 @@
 * **new site:** cinemaZ source ([8a63455](https://github.com/techmovie/easy-upload/commit/8a634554487e8bec77390f01dc3f876952ab7b75))
 * support KG upload ([f356a05](https://github.com/techmovie/easy-upload/commit/f356a05c473a984f5117c21d24c6f65bff2ea9d9))
 
-
-
 ## [2.4.3](https://github.com/techmovie/easy-upload/compare/2.4.2...2.4.3) (2021-11-28)
 
 
@@ -1219,8 +1032,6 @@
 
 * **phd:** title fetcher ([48c3371](https://github.com/techmovie/easy-upload/commit/48c3371a14fe8893362208fbcec4d5b4105b5cb2)), closes [#147](https://github.com/techmovie/easy-upload/issues/147)
 * **ptpimg:** 改为单张依次上传 忽略上传失败的图片 ([a747e1e](https://github.com/techmovie/easy-upload/commit/a747e1e530a4a7e44618d4a862e6b4fd5e2d18a8))
-
-
 
 ## [2.4.2](https://github.com/techmovie/easy-upload/compare/2.4.1...2.4.2) (2021-11-27)
 
@@ -1235,8 +1046,6 @@
 
 * add Hardcoded Subtitles des in subTitle ([f940add](https://github.com/techmovie/easy-upload/commit/f940add6c1b86e1b269a04eafb3687f565d9cde8))
 
-
-
 ## [2.4.1](https://github.com/techmovie/easy-upload/compare/2.4.0...2.4.1) (2021-10-16)
 
 
@@ -1244,8 +1053,6 @@
 
 * **hdmayi:** auofill fix ([724135e](https://github.com/techmovie/easy-upload/commit/724135e59f8aa9d368a458ab3da4437860e63d1c)), closes [#143](https://github.com/techmovie/easy-upload/issues/143)
 * only show thanks quote when source site is available ([#145](https://github.com/techmovie/easy-upload/issues/145)) ([5a908cc](https://github.com/techmovie/easy-upload/commit/5a908cce9dfddac1acf231b05f49fad828033961))
-
-
 
 # [2.4.0](https://github.com/techmovie/easy-upload/compare/2.3.9...2.4.0) (2021-09-29)
 
@@ -1262,16 +1069,12 @@
 
 * add pixost and gifyu for thumbnail host ([6510141](https://github.com/techmovie/easy-upload/commit/651014125a1534e979659f14ca6e303279393883))
 
-
-
 ## [2.3.9](https://github.com/techmovie/easy-upload/compare/2.3.8...2.3.9) (2021-09-16)
 
 
 ### Features
 
 * **new site:** add PuTao support ([671df2c](https://github.com/techmovie/easy-upload/commit/671df2c1ea53d351af42d6cb371c6e0b9d12ca17))
-
-
 
 ## [2.3.8](https://github.com/techmovie/easy-upload/compare/2.3.7...2.3.8) (2021-09-12)
 
@@ -1280,16 +1083,12 @@
 
 * **douban:** 兼容部分信息不全的电影 ([eac330a](https://github.com/techmovie/easy-upload/commit/eac330ae689f7aed265862cadb7a2e4498a49e7d))
 
-
-
 ## [2.3.7](https://github.com/techmovie/easy-upload/compare/2.3.6...2.3.7) (2021-09-10)
 
 
 ### Bug Fixes
 
 * **byr:** update url ([05715b2](https://github.com/techmovie/easy-upload/commit/05715b2e65e197574e628e40799d18325de6115e))
-
-
 
 ## [2.3.6](https://github.com/techmovie/easy-upload/compare/2.3.5...2.3.6) (2021-09-03)
 
@@ -1298,8 +1097,6 @@
 
 * **hdf:** search & source page dom  selector ([44ef54c](https://github.com/techmovie/easy-upload/commit/44ef54c4b9feeda26d38629df5775acefc488578))
 
-
-
 ## [2.3.5](https://github.com/techmovie/easy-upload/compare/2.3.4...2.3.5) (2021-08-24)
 
 
@@ -1307,16 +1104,12 @@
 
 * **acm:** adapt new site version ([5a4f76d](https://github.com/techmovie/easy-upload/commit/5a4f76d1ec266aa89818cd5577dc6c002c9b912e))
 
-
-
 ## [2.3.4](https://github.com/techmovie/easy-upload/compare/2.3.3...2.3.4) (2021-08-22)
 
 
 ### Features
 
 * np站点上传页增加补充豆瓣信息按钮 ([79ea423](https://github.com/techmovie/easy-upload/commit/79ea4233007deb4cc8cd09a81871962dbd20dcaf))
-
-
 
 ## [2.3.3](https://github.com/techmovie/easy-upload/compare/2.3.2...2.3.3) (2021-08-14)
 
@@ -1326,16 +1119,12 @@
 * **bhd blu:** change postion of screenshots in description ([3caa2b6](https://github.com/techmovie/easy-upload/commit/3caa2b6ef3583835905d2b2ec694efef95e50b06))
 * make imdb rating number precise ([03dc37e](https://github.com/techmovie/easy-upload/commit/03dc37ec1eebe705164b4efdc49408e8d0a0c196))
 
-
-
 ## [2.3.2](https://github.com/techmovie/easy-upload/compare/2.3.1...2.3.2) (2021-08-04)
 
 
 ### Bug Fixes
 
 * gpw GroupID fetch ([07ad9ac](https://github.com/techmovie/easy-upload/commit/07ad9ac5759936de2988405c9f277648d157422f))
-
-
 
 ## [2.3.1](https://github.com/techmovie/easy-upload/compare/2.3.0...2.3.1) (2021-08-04)
 
@@ -1348,8 +1137,6 @@
 ### Features
 
 * 通过点击[快速检索]字样进行快速检测是否目标站有当前种子 ([116c385](https://github.com/techmovie/easy-upload/commit/116c385ffd088cc9f207b85da669d305ed8e0365))
-
-
 
 # [2.3.0](https://github.com/techmovie/easy-upload/compare/2.2.10...2.3.0) (2021-08-02)
 
@@ -1367,8 +1154,6 @@
 * **new site:** support HDFans ([2a4fb9d](https://github.com/techmovie/easy-upload/commit/2a4fb9d59c8c9615c83970d8601220542b833896)), closes [#140](https://github.com/techmovie/easy-upload/issues/140)
 * support hiding Douban button & link field ([67b0ec5](https://github.com/techmovie/easy-upload/commit/67b0ec5addf89420eef16a4327bacfffd4d214d3))
 
-
-
 ## [2.2.10](https://github.com/techmovie/easy-upload/compare/2.2.9...2.2.10) (2021-07-29)
 
 
@@ -1383,8 +1168,6 @@
 * blu Aither fill  BDInfo ([5ec237a](https://github.com/techmovie/easy-upload/commit/5ec237af07c4aaca1785485f267e027670ae41ae))
 * **quick search:** support OpenSub ([909bca4](https://github.com/techmovie/easy-upload/commit/909bca40b9fea0957097e1a0a2f8482e84b6d92f))
 
-
-
 ## [2.2.9](https://github.com/techmovie/easy-upload/compare/2.2.8...2.2.9) (2021-07-19)
 
 
@@ -1398,8 +1181,6 @@
 * lemonHD name search ([ff38cd4](https://github.com/techmovie/easy-upload/commit/ff38cd4b26d61487c362f419576e04be6d54008e))
 * sc bugfix ([97e31e2](https://github.com/techmovie/easy-upload/commit/97e31e2f5fc071ad50d67778517a22493f76410b)), closes [#82](https://github.com/techmovie/easy-upload/issues/82)
 * unit3d 修改选择器 ([faa16d4](https://github.com/techmovie/easy-upload/commit/faa16d4675502c19fbd18990a4f59dd9b6d8ac24))
-
-
 
 ## [2.2.8](https://github.com/techmovie/easy-upload/compare/2.2.7...2.2.8) (2021-07-13)
 
@@ -1417,16 +1198,12 @@
 * **new site:** support SC(target) ([5b953ec](https://github.com/techmovie/easy-upload/commit/5b953ec24618daaeb66f3ddc6b3236754460bee4)), closes [#82](https://github.com/techmovie/easy-upload/issues/82)
 * support copy rehosted images to clipboard ([f7089e8](https://github.com/techmovie/easy-upload/commit/f7089e84fe73e7559160b29f02d71dc85f891965))
 
-
-
 ## [2.2.7](https://github.com/techmovie/easy-upload/compare/2.2.6...2.2.7) (2021-07-09)
 
 
 ### Bug Fixes
 
 * 北邮增加bbcode2Html方法 ([736a235](https://github.com/techmovie/easy-upload/commit/736a235e0e7d328a81b502a20924eb5238d537af))
-
-
 
 ## [2.2.6](https://github.com/techmovie/easy-upload/compare/2.2.5...2.2.6) (2021-07-09)
 
@@ -1447,8 +1224,6 @@
 * **new site:** support NPUBits(target) ([bae8cf4](https://github.com/techmovie/easy-upload/commit/bae8cf49438ae72f76aaea9f866b9cb0e0ab7ea9)), closes [#125](https://github.com/techmovie/easy-upload/issues/125)
 * supoort GPW(source) ([fcc7460](https://github.com/techmovie/easy-upload/commit/fcc74600181c936fce26b0e16347cadd7d6d949b))
 
-
-
 ## [2.2.5](https://github.com/techmovie/easy-upload/compare/2.2.4...2.2.5) (2021-06-29)
 
 
@@ -1466,8 +1241,6 @@
 * **new site:** support HDSpace ([d290316](https://github.com/techmovie/easy-upload/commit/d2903169c50f5c93de19cba48f897736d9a7e845)), closes [#116](https://github.com/techmovie/easy-upload/issues/116)
 * support HaresClub(大白兔) ([ca38f6b](https://github.com/techmovie/easy-upload/commit/ca38f6b54ab94ddb888792915b46de873bfd89c3))
 
-
-
 ## [2.2.4](https://github.com/techmovie/easy-upload/compare/2.2.3...2.2.4) (2021-06-26)
 
 
@@ -1484,8 +1257,6 @@
 * 增加从标签栏获取标签的功能 ([3bf64c8](https://github.com/techmovie/easy-upload/commit/3bf64c8788215cedc3c03931ac4d93f3a80e7aff)), closes [#80](https://github.com/techmovie/easy-upload/issues/80)
 * **gpw:** autofill失败时自动勾选字幕 ([af80851](https://github.com/techmovie/easy-upload/commit/af80851d9e34b118fdc7f9ba905f16685f5f402f))
 * support selecting different imghost to re-upload(gifyu ptpimg) ([3099716](https://github.com/techmovie/easy-upload/commit/30997166636f26dcc589c1d4870aa76603c17e57)), closes [#123](https://github.com/techmovie/easy-upload/issues/123)
-
-
 
 ## [2.2.3](https://github.com/techmovie/easy-upload/compare/2.2.2...2.2.3) (2021-06-20)
 
@@ -1510,8 +1281,6 @@
 
 * support TeamHD(target) ([ec10307](https://github.com/techmovie/easy-upload/commit/ec10307a387bcf87ea58d447edad0132540a2b34)), closes [#71](https://github.com/techmovie/easy-upload/issues/71)
 
-
-
 ## [2.2.2](https://github.com/techmovie/easy-upload/compare/2.2.1...2.2.2) (2021-06-16)
 
 
@@ -1527,8 +1296,6 @@
 * 完善GPW ([6c6456e](https://github.com/techmovie/easy-upload/commit/6c6456e78bfde91791d5aaf690584cee98f6abb2))
 * BHD add editionTags, mediaInfos, originalDescription ([#115](https://github.com/techmovie/easy-upload/issues/115)) ([4b5d243](https://github.com/techmovie/easy-upload/commit/4b5d24331953dfcd99a18a688c810c5203acea9c))
 * **new site:** support GPW(target) ([292cbc4](https://github.com/techmovie/easy-upload/commit/292cbc4e0efece643d8739e7b9925e8e481b5db8))
-
-
 
 ## [2.2.1](https://github.com/techmovie/easy-upload/compare/2.2.0...2.2.1) (2021-06-10)
 
@@ -1547,8 +1314,6 @@
 * add zimuku and SubHD  support for quick search ([d8eb2a3](https://github.com/techmovie/easy-upload/commit/d8eb2a32b17525a09d5a93df18d84b0f6a443d84))
 * **new site:** 支持HDTime ([fda8488](https://github.com/techmovie/easy-upload/commit/fda84882f0d7b276e57bd7ca8d6c3a3a940f06aa))
 
-
-
 # [2.2.0](https://github.com/techmovie/easy-upload/compare/2.1.1...2.2.0) (2021-06-03)
 
 
@@ -1566,8 +1331,6 @@
 * **new site:** add PHD and  AvistaZ support (source) ([b505bbc](https://github.com/techmovie/easy-upload/commit/b505bbc2b2f0aa8ed1b50a995a2e4dac40dcffe3)), closes [#58](https://github.com/techmovie/easy-upload/issues/58)
 * **new site:** add ptn support (target) ([02e08b0](https://github.com/techmovie/easy-upload/commit/02e08b059e81b1fd54d581f67ddb8bcd2ed627d3)), closes [#98](https://github.com/techmovie/easy-upload/issues/98)
 * restore icon animation ([dfe0733](https://github.com/techmovie/easy-upload/commit/dfe0733a229df4596386237d54658003bc564fb9))
-
-
 
 ## [2.1.1](https://github.com/techmovie/easy-upload/compare/2.1.0...2.1.1) (2021-05-27)
 
@@ -1594,8 +1357,6 @@
 * 完善PTP版本标签 ([18be3b7](https://github.com/techmovie/easy-upload/commit/18be3b755612eebe439a9e89871710591e3b9564))
 * comparisonImgs改为comparisons ([#87](https://github.com/techmovie/easy-upload/issues/87)) ([de3bfda](https://github.com/techmovie/easy-upload/commit/de3bfdada0bc5375d3957731655079156e6d2201))
 
-
-
 # [2.1.0](https://github.com/techmovie/easy-upload/compare/2.0.0...2.1.0) (2021-05-15)
 
 
@@ -1615,8 +1376,6 @@
 * **btn:** 完善BTN ([fce29ea](https://github.com/techmovie/easy-upload/commit/fce29ea2b14cc13873427474999fabe81edfb387)), closes [#81](https://github.com/techmovie/easy-upload/issues/81)
 * support upload image file to ptpimg ([07e5555](https://github.com/techmovie/easy-upload/commit/07e55553c8581670cc57808438a5f8b551ea9eff))
 
-
-
 # [2.0.0](https://github.com/techmovie/easy-upload/compare/1.3.0...2.0.0) (2021-05-09)
 
 
@@ -1631,8 +1390,6 @@
 
 * change script name to easy-upload ([142555c](https://github.com/techmovie/easy-upload/commit/142555ca03fe22c55eff75d9db992c52a62e5413))
 * **new site:** support ptp target ([f3566d9](https://github.com/techmovie/easy-upload/commit/f3566d90d4085fb9a0356602334c89baa610e3b8)), closes [#73](https://github.com/techmovie/easy-upload/issues/73)
-
-
 
 # [1.3.0](https://github.com/techmovie/easy-upload/compare/1.2.6...1.3.0) (2021-05-08)
 
@@ -1662,8 +1419,6 @@
 
 * 优化部分细节 ([94a6467](https://github.com/techmovie/easy-upload/commit/94a6467e40c3fde62a86c972f3555f16bd29dd8a))
 
-
-
 ## [1.2.6](https://github.com/techmovie/easy-upload/compare/1.2.5...1.2.6) (2021-04-25)
 
 
@@ -1683,8 +1438,6 @@
 ### Performance Improvements
 
 * change quick search style ([889ff2f](https://github.com/techmovie/easy-upload/commit/889ff2f153e8a5f8aa04768d315ba2eeaf9d07c4)), closes [#57](https://github.com/techmovie/easy-upload/issues/57)
-
-
 
 ## [1.2.5](https://github.com/techmovie/easy-upload/compare/1.2.4...1.2.5) (2021-04-23)
 
@@ -1708,8 +1461,6 @@
 
 * remove extra description images ([c40e798](https://github.com/techmovie/easy-upload/commit/c40e798459541fa4a1bbe9cfcc7327936fbf2be8))
 
-
-
 ## [1.2.4](https://github.com/techmovie/easy-upload/compare/1.2.3...1.2.4) (2021-04-18)
 
 
@@ -1724,16 +1475,12 @@
 
 * **its:** 支持iTS collection自动选择制作组、导演、语言 ([010749e](https://github.com/techmovie/easy-upload/commit/010749edd72c8e0ed975922aec307db05a3722d1))
 
-
-
 ## [1.2.3](https://github.com/techmovie/easy-upload/compare/1.2.2...1.2.3) (2021-04-16)
 
 
 ### Bug Fixes
 
 * 修复转载失效的问题 ([4c6baa7](https://github.com/techmovie/easy-upload/commit/4c6baa7638b47e2e738b9bd826b103efb4b242d2)), closes [#47](https://github.com/techmovie/easy-upload/issues/47)
-
-
 
 ## [1.2.2](https://github.com/techmovie/easy-upload/compare/1.2.1...1.2.2) (2021-04-16)
 
@@ -1754,8 +1501,6 @@
 * 支持iTS(target) [#41](https://github.com/techmovie/easy-upload/issues/41) ([d4aed63](https://github.com/techmovie/easy-upload/commit/d4aed63ac9d9c33f8b6944dd80fd1dc93a753764))
 * **search:** 支持豆瓣电影、豆瓣图书、TMDB快速检索 ([7c943af](https://github.com/techmovie/easy-upload/commit/7c943af74d47b26f180543a3ca40c45d0921b8b2))
 
-
-
 ## [1.2.1](https://github.com/techmovie/easy-upload/compare/1.2.0...1.2.1) (2021-04-12)
 
 
@@ -1773,8 +1518,6 @@
 * 支持hdt(source) [#39](https://github.com/techmovie/easy-upload/issues/39) ([1436b32](https://github.com/techmovie/easy-upload/commit/1436b32bba59c783bc55d1bd6d2ef8ddf3cb2a31))
 * 支持KG 转出（Source） ([a0ae883](https://github.com/techmovie/easy-upload/commit/a0ae883b50ca2af7fe2e058e85e173cc67adbfea)), closes [#40](https://github.com/techmovie/easy-upload/issues/40)
 * **new version:** 1.2.1 ([3aa8383](https://github.com/techmovie/easy-upload/commit/3aa83833320de42b7284ccfd51ceeafad52d2784))
-
-
 
 # [1.2.0](https://github.com/techmovie/easy-upload/compare/1.1.4...1.2.0) (2021-04-10)
 
@@ -1806,8 +1549,6 @@
 * ptp修改简介获取方式 ([d761573](https://github.com/techmovie/easy-upload/commit/d761573b52197798c8a898f2251c47bc6c24a5a3))
 * update readme ([e282621](https://github.com/techmovie/easy-upload/commit/e282621b47d43eee7423c7a3f74a67846546440d))
 
-
-
 ## [1.1.4](https://github.com/techmovie/easy-upload/compare/1.1.4-beta.1...1.1.4) (2021-04-06)
 
 
@@ -1822,8 +1563,6 @@
 * close [#37](https://github.com/techmovie/easy-upload/issues/37) ([31db72a](https://github.com/techmovie/easy-upload/commit/31db72a05d490bcd23c4c40bad6814d5fe3ef16c))
 * **new version:** 1.1.4 ([82a1676](https://github.com/techmovie/easy-upload/commit/82a16764c6fb662bea3f9a86f4b194a05f6745dd))
 
-
-
 ## [1.1.4-beta.1](https://github.com/techmovie/easy-upload/compare/1.1.3...1.1.4-beta.1) (2021-03-31)
 
 
@@ -1837,8 +1576,6 @@
 * 支持资料站tccf mt bib ([52f8ecf](https://github.com/techmovie/easy-upload/commit/52f8ecf5bf8c7e8cc650a0331f331caad7c238f3))
 * 支持资料站tccf mt bib ([415e00c](https://github.com/techmovie/easy-upload/commit/415e00c5c61809a3b4f9a80cd150b139e6735e82))
 * **new version:** 1.1.4-beta.1 ([4dfcd9a](https://github.com/techmovie/easy-upload/commit/4dfcd9a3d018bbd9e53659e1e878e398f7a59193))
-
-
 
 ## [1.1.3](https://github.com/techmovie/easy-upload/compare/1.1.2...1.1.3) (2021-03-29)
 
@@ -1855,8 +1592,6 @@
 * **dev:** 增加终端错误通知 ([a86a9ed](https://github.com/techmovie/easy-upload/commit/a86a9ed63ef06d9ba5391188e4ae7632737d2170))
 * **dev:** 增加release脚本 ([3530ef9](https://github.com/techmovie/easy-upload/commit/3530ef98db9a9a9962f76c435928640fd7456f89))
 * **new version:** 1.1.3 ([501fb6f](https://github.com/techmovie/easy-upload/commit/501fb6fac53bd417091a7b44640e208f147fc32a))
-
-
 
 ## [1.1.2](https://github.com/techmovie/easy-upload/compare/1.1.1...1.1.2) (2021-03-28)
 
@@ -1883,8 +1618,6 @@
 * np站点增加movieName参数 ([48a04b6](https://github.com/techmovie/easy-upload/commit/48a04b67bda67e1104b2b282112217bd018c85ae))
 * uhd检索结果按大小排序 ([c193278](https://github.com/techmovie/easy-upload/commit/c1932788ae58b24bcf275fe083f160d113a2dc4d))
 
-
-
 ## [1.1.1](https://github.com/techmovie/easy-upload/compare/1.1.0...1.1.1) (2021-03-26)
 
 
@@ -1903,8 +1636,6 @@
 ### Features
 
 * **new version:** 1.1.1 ([c4854ef](https://github.com/techmovie/easy-upload/commit/c4854ef2e3b62600d652df98588f455ae0b548b4))
-
-
 
 # [1.1.0](https://github.com/techmovie/easy-upload/compare/1.0.9...1.1.0) (2021-03-25)
 
@@ -1941,8 +1672,6 @@
 * **new version:** 1.1.0 ([c36e331](https://github.com/techmovie/easy-upload/commit/c36e331c4b99605160b205c1c824f9b2fb7e09cf))
 * support hdr search ([ced60ee](https://github.com/techmovie/easy-upload/commit/ced60eee5909f4cc47009cb5f91f4d0ccf008381))
 
-
-
 ## [1.0.8](https://github.com/techmovie/easy-upload/compare/1.0.7...1.0.8) (2021-03-22)
 
 
@@ -1966,8 +1695,6 @@
 * **new version:** 1.0.8 ([a415975](https://github.com/techmovie/easy-upload/commit/a415975d5977035c68bd3d190757ef9cc74266cf))
 * unit3d站点剧集适配 ([af50c49](https://github.com/techmovie/easy-upload/commit/af50c49b51388f0a3f1d0346503dfe6248fa28f9))
 
-
-
 ## [1.0.7](https://github.com/techmovie/easy-upload/compare/1.0.6...1.0.7) (2021-03-20)
 
 
@@ -1980,8 +1707,6 @@
 ### Features
 
 * **new version:** 1.0.7 ([3b88155](https://github.com/techmovie/easy-upload/commit/3b88155a9ae60447f150505736b478d644c8ea76))
-
-
 
 ## [1.0.6](https://github.com/techmovie/easy-upload/compare/1.0.5...1.0.6) (2021-03-19)
 
@@ -1999,8 +1724,6 @@
 * 增加制作组自动填写 ([d2cee86](https://github.com/techmovie/easy-upload/commit/d2cee86a6fa39b6ed6c957949e6e5148775f0025))
 * 支持自动填写海报 ([19fbdef](https://github.com/techmovie/easy-upload/commit/19fbdef148758d90b5e468cf9d7e4cb65bc2c53a))
 * **new version:** 1.0.6 ([6947ae3](https://github.com/techmovie/easy-upload/commit/6947ae3808634e3c31eac9b3670bdd31666e4586))
-
-
 
 ## [1.0.5](https://github.com/techmovie/easy-upload/compare/1.0.4...1.0.5) (2021-03-18)
 
@@ -2025,8 +1748,6 @@
 * update match url ([7a64026](https://github.com/techmovie/easy-upload/commit/7a640261145902a504d36040a01e2aeaf57ec966))
 * update ssd config ([3499646](https://github.com/techmovie/easy-upload/commit/3499646c4b4ad48cfac739a10ef289d614592da6))
 
-
-
 ## [1.0.4](https://github.com/techmovie/easy-upload/compare/1.0.3...1.0.4) (2021-03-17)
 
 
@@ -2040,8 +1761,6 @@
 * 豆瓣frodo接口失效 暂时删除相关代码 ([c6aad58](https://github.com/techmovie/easy-upload/commit/c6aad586fe3068886f7d6deb16d037590851feec))
 * 增加支持站点列表 开发相关的内容移至WiKi ([546f0f4](https://github.com/techmovie/easy-upload/commit/546f0f410fe576ce60f6d1bc9f0fb35f9fd4d927))
 * update version 1.0.4 ([463d758](https://github.com/techmovie/easy-upload/commit/463d75857ff1b4f8b1eb5dc680ff516bcb54c613))
-
-
 
 ## [1.0.3](https://github.com/techmovie/easy-upload/compare/1.0.2...1.0.3) (2021-03-16)
 
@@ -2158,6 +1877,3 @@
 * update version 1.0.1 ([2c96332](https://github.com/techmovie/easy-upload/commit/2c96332ce8d67b137f313ceed62aa07914cd2a35))
 * update version 1.0.2 ([5762839](https://github.com/techmovie/easy-upload/commit/5762839206e275541d0417548bd7be1f10f21b1c))
 * update version 1.0.3 ([6b0b540](https://github.com/techmovie/easy-upload/commit/6b0b5403fca9099726ad538f3a5ba6aede805c4e))
-
-
-
