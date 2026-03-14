@@ -9,7 +9,7 @@ seedDomSelector: ""
 search:
   path: /search
   params:
-    q: '{name}'
+    q: "{name}"
 name:
   selector: 'input[name="name"]'
 mediainfo:
@@ -19,9 +19,9 @@ torrent:
 category:
   selector: 'select[name="format"]'
   map:
-    tv: 'TV'
-    tvPack: 'TV'
-    movie: 'MOVIE'
+    tv: "TV"
+    tvPack: "TV"
+    movie: "MOVIE"
     # TODO: map remaining anime-specific formats below
     # TV_SHORT: short-form TV series
     # SPECIAL: special episodes
@@ -31,6 +31,6 @@ category:
     # MANGA: manga
     # NOVEL: light/web novel
     # ONE_SHOT: one-shot manga
-    cartoon: 'TV'
-    concert: 'MUSIC'
-    other: ''
+    cartoon: "TV"
+    concert: "MUSIC"
+    other: ""

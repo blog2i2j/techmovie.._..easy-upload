@@ -1,16 +1,19 @@
 |  Site name  | Source(supports transfer) | Target(allows transfer) |
 | :---------: | :-----------------------: | :---------------------: |
+|   13City    |            ❌             |           ✅            |
 |    1PTBA    |            ✅             |           ✅            |
 |    3Wmg     |            ✅             |           ✅            |
 |    52pt     |            ✅             |           ✅            |
 |     ACM     |            ✅             |           ✅            |
 |    AGSV     |            ✅             |           ✅            |
 |   Aither    |            ✅             |           ✅            |
+|   Animez    |            ❌             |           ✅            |
 |  Audiences  |            ✅             |           ✅            |
 |   AvistaZ   |            ✅             |           ❌            |
 |     BTN     |            ✅             |           ❌            |
 |  BTSCHOOL   |            ✅             |           ✅            |
 |     BYR     |            ❌             |           ✅            |
+|    Baozi    |            ❌             |           ✅            |
 |  BeyondHD   |            ✅             |           ✅            |
 |     Bib     |            ❌             |           ✅            |
 |  Blutopia   |            ✅             |           ✅            |
@@ -37,6 +40,7 @@
 |     HDU     |            ✅             |           ✅            |
 |     HH      |            ✅             |           ❌            |
 |    HUNO     |            ✅             |           ✅            |
+|   Hdclone   |            ❌             |           ✅            |
 |  KEEPFRDS   |            ✅             |           ✅            |
 |     KG      |            ✅             |           ✅            |
 |   KamePT    |            ✅             |           ✅            |
@@ -59,6 +63,7 @@
 | Piggo-offer |            ❌             |           ✅            |
 |    Piggo    |            ✅             |           ✅            |
 |  PrivateHD  |            ✅             |           ❌            |
+|   Ptskit    |            ❌             |           ✅            |
 |    PuTao    |            ✅             |           ✅            |
 |     RED     |            ✅             |           ✅            |
 |   Railgun   |            ❌             |           ✅            |
@@ -70,6 +75,7 @@
 |    TJUPT    |            ✅             |           ✅            |
 |     TLF     |            ✅             |           ✅            |
 |     TTG     |            ✅             |           ✅            |
+|   TangPT    |            ❌             |           ✅            |
 |   UHDBits   |            ✅             |           ✅            |
 |   ZHUQUE    |            ❌             |           ✅            |
 |    ZMPT     |            ❌             |           ✅            |

@@ -67,16 +67,16 @@ resolution:
 videoCodec:
   selector: select[name="codec_sel[4]"]
   map:
-    h264: '1'
-    hevc: '6'
-    h265: '6'
-    x264: '1'
-    x265: '6'
-    av1: '7'
-    mpeg2: '4'
-    vc1: '2'
-    xvid: '3'
-    other: '5'
+    h264: "1"
+    hevc: "6"
+    h265: "6"
+    x264: "1"
+    x265: "6"
+    av1: "7"
+    mpeg2: "4"
+    vc1: "2"
+    xvid: "3"
+    other: "5"
 audioCodec:
   selector: select[name="audiocodec_sel[4]"]
   map:
@@ -97,31 +97,31 @@ audioCodec:
 team:
   selector: select[name="team_sel[4]"]
   map:
-    qhstudio: '37'
-    chd: '2'
-    hds: '1'
-    cspt: '38'
-    ubweb: '36'
-    zmweb: '35'
-    hhweb: '34'
-    adweb: '31'
-    u2: '26'
-    opencd: '24'
-    beast: '23'
-    hdarea: '21'
-    ffansdiy: '19'
-    cmct: '17'
-    ourtv: '16'
-    btshd: '15'
-    hdhome: '14'
-    pterweb: '13'
-    hdsweb: '11'
-    mweb: '10'
-    frds: '8'
-    agsvweb: '7'
-    starfallweb: '6'
-    other: '5'
-    wiki: '4'
-    mysilu: '3'
+    qhstudio: "37"
+    chd: "2"
+    hds: "1"
+    cspt: "38"
+    ubweb: "36"
+    zmweb: "35"
+    hhweb: "34"
+    adweb: "31"
+    u2: "26"
+    opencd: "24"
+    beast: "23"
+    hdarea: "21"
+    ffansdiy: "19"
+    cmct: "17"
+    ourtv: "16"
+    btshd: "15"
+    hdhome: "14"
+    pterweb: "13"
+    hdsweb: "11"
+    mweb: "10"
+    frds: "8"
+    agsvweb: "7"
+    starfallweb: "6"
+    other: "5"
+    wiki: "4"
+    mysilu: "3"
 anonymous:
   selector: input[name="uplver"]
