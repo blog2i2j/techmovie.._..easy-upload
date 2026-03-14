@@ -19,7 +19,7 @@ const AnalyzeUploadPage = () => {
 
     formElements.forEach((element) => {
       const name = element.getAttribute('name');
-      if (!name) return;
+      if (!name || !name.match(/font|color|size/gi)) return;
 
       if (element instanceof HTMLSelectElement) {
         const options = Array.from(element.options).map((opt) => ({
