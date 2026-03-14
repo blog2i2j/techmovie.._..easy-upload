@@ -53,7 +53,9 @@ export default [
     },
 
     rules: {
+      'react/jsx-fragments': 0,
       'no-use-before-define': 0,
+      'react/jsx-handler-names': 0,
       semi: ['error', 'always'],
       'no-undef': 0,
       'comma-dangle': ['error', 'always-multiline'],
