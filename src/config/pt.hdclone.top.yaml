@@ -1,0 +1,100 @@
+url: https://pt.hdclone.top
+host: pt.hdclone.top
+siteType: NexusPHP
+icon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAPoAAAD6AG1e1JrAAADTUlEQVR4nH2Vyyt9URTHj/ed3DJBGVD+A0MTJQYSMTIyVFKEkcijpExI4eoqEwZ34DWjS8pbxEXyuB55k8v1JheXr77Lb+/fOb/0W7Xaj7P3Z6+91trrGABwfX2Nk5MTnJ2diZ6enuL4+FiU86qvvl9cXGB/fx9XV1fcjq+vLygxHh8fZdH7+zteX1/x/PyMj48P/Cb8/vLygkAggKenJ0xOTiIYDApQQY3b21uxkPL5+Smtz+dDW1sb8vPzkZmZieLiYrjdbr1RbSYwEAhoK6nG3d0d/H6/tmJ4eBgxMTEwDAMhISGWNisrCzc3N3rtxMSEXJ8G0WKx8P7+XgOnpqYQGRkpmyMiIjQoLCxMz6elpYl7KF1dXRgZGYHH45GWfhUfPjw8yIKUlBQNY5ucnIyCggJER0fLWEE7OztlPVufzyf9y8tLrK6uwiCMjl1eXpbF4eHh0hYWFkoQeKXt7W3ExsbKPDU9PV0g3d3dGkhXeL3enytT+vv7ZXFoaKi0h4eHYh37i4uLaGxs1MCEhATZ09raivX1denTbVtbW3+BAwMD2l9suZAQu90uvqmoqNDAxMRE2VNWVoaMjAwrkFFm6DkgTAFTU1PFL8xLl8sFm82mrc/JyRFIZWWlPpyMjY2NnzxUGZ+dnW2JMOH0XV5eHuLi4rSFg4ODsr66ulrGHR0dkoMEW4C7u7uIj4/XG5OSkjA7O4vm5mY9V1RUpPOwtrZW5urr661Ac7Jubm6K02tqamTM6NPaqKgo1NXVSUaop6mADofDCjS/lLm5OUlSCv1XXl6O9vZ2KRIUM7CqqkqA9D9TTPvQDBwbG0Nvb6/0CeKV1TtXhUABS0pKkJubK30+Px1lc3Gg9vT0oKmpCUNDQzLPCBJCIFU9Peah1+u1pg07v9W1/4mqSk6n0/JSBEhYX1+fnMSJlZUVKUszMzNSLOjTtbU1Ufanp6cxPz8v5aylpUXDNZCD8/Nz7O3tieNHR0clKGwJbWhoQGlpqSijzDnCxsfHQf/jj2jgv9ckXJ2qrre0tCTvmf4zi7nYMhZSHNQHBeGVeTLHb29vlt8B+wyIUhUkysHBwU/FMp9GYSFYWFjA0dGRuIHjnZ0dUTU2K+dYmZheDPA3y9NssKb8HfwAAAAASUVORK5CYII=
+asSource: false
+asTarget: true
+uploadPath: /upload.php
+seedDomSelector: '#top~table:first>tbody>tr:nth-child(6)'
+search:
+  path: /torrents.php
+  imdbOptionKey: '4'
+  nameOptionKey: '0'
+  params:
+    incldead: '0'
+    search_area: '{optionKey}'
+    search: '{imdb}'
+    sort: '5'
+    type: desc
+  result:
+    list: '.torrents>tbody>tr'
+    url: '.torrentname td a[href*="details.php?id="]'
+    name: '.torrentname td a[href*="details.php?id="]'
+    size: 'td:nth-child(5)'
+name:
+  selector: 'input[name="name"]'
+subtitle:
+  selector: 'input[name="small_descr"]'
+description:
+  selector: 'textarea[name="descr"]'
+imdb:
+  selector: 'input[name="url"][type="text"]'
+anonymous:
+  selector: 'input[name="uplver"]'
+torrent:
+  selector: 'input[name="file"]'
+tags:
+  hdr: 'input[name="tags[4][]"]'
+category:
+  selector: 'select[name="type"]'
+  map:
+    movie: '401'
+    tv: '402'
+    tvPack: '402'
+    documentary: '404'
+    variety: '403'
+    cartoon: '405'
+    concert: '410'
+    music: '408'
+    other: '407'
+videoCodec:
+  selector: 'select[name="codec_sel[4]"]'
+  map:
+    h264: '1'
+    x264: '1'
+    hevc: '6'
+    x265: '6'
+    h265: '6'
+    vc1: '2'
+    mpeg2: '4'
+    av1: '3'
+    other: '5'
+videoType:
+  selector: 'select[name="medium_sel[4]"]'
+  map:
+    uhdbluray: '9'
+    bluray: '1'
+    remux: '3'
+    encode: '7'
+    web: '6'
+    hdtv: '2'
+    dvd: '10'
+    dvdrip: '7'
+    other: '5'
+resolution:
+  selector: 'select[name="standard_sel[4]"]'
+  map:
+    4320p: '6'
+    2160p: '1'
+    1080p: '2'
+    1080i: '2'
+    720p: '3'
+    576p: '4'
+    480p: '4'
+team:
+  selector: 'select[name="team_sel[4]"]'
+  map:
+    frds: '6'
+    beast: '9'
+    cmct: '8'
+    tlf: '7'
+    wiki: '4'
+    ubits: '13'
+    pter: '14'
+    mteam: '1'
+    chd: '2'
+    beitai: '3'
+    agsv: '5'
+    hdsky: '10'
+    hdhome: '11'
+    ttg: '12'
