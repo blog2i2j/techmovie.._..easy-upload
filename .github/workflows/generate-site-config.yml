@@ -2,7 +2,7 @@ name: Generate Site Config
 
 on:
   issues:
-    types: [opened]
+    types: [labeled]
 
 jobs:
   generate:
