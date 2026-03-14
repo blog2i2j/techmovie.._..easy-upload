@@ -7,14 +7,16 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // ── Env ──────────────────────────────────────────────────────────────────────
-const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+const ANTHROPIC_BASE_URL = process.env.ANTHROPIC_BASE_URL;
+const ANTHROPIC_AUTH_TOKEN = process.env.ANTHROPIC_AUTH_TOKEN;
 const ISSUE_BODY = process.env.ISSUE_BODY || '';
 const ISSUE_NUMBER = process.env.ISSUE_NUMBER;
 const ISSUE_TITLE = process.env.ISSUE_TITLE || '';
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const REPO = process.env.REPO; // "owner/repo"
 
-if (!ANTHROPIC_API_KEY) throw new Error('Missing ANTHROPIC_API_KEY');
+if (!ANTHROPIC_BASE_URL) throw new Error('Missing ANTHROPIC_BASE_URL');
+if (!ANTHROPIC_AUTH_TOKEN) throw new Error('Missing ANTHROPIC_AUTH_TOKEN');
 if (!GITHUB_TOKEN) throw new Error('Missing GITHUB_TOKEN');
 if (!REPO) throw new Error('Missing REPO');
 if (!ISSUE_NUMBER) throw new Error('Missing ISSUE_NUMBER');
@@ -171,7 +173,10 @@ The first line of your response must be \`url:\`.`;
 // ── Claude API call ──────────────────────────────────────────────────────────
 
 async function generateConfig(rawYaml, siteType) {
-  const client = new Anthropic({ apiKey: ANTHROPIC_API_KEY });
+  const client = new Anthropic({
+    authToken: ANTHROPIC_AUTH_TOKEN,
+    baseURL: ANTHROPIC_BASE_URL,
+  });
 
   const userMessage = `Convert this raw site config to easy-upload format.
 
