@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 24
       - name: Install dependencies
-        run: npm install @anthropic-ai/sdk js-yaml
+        run: npm install @anthropic-ai/sdk js-yaml got sharp decode-ico
       - name: Generate site config
         run: node scripts/generate-site-config.mjs
         env:

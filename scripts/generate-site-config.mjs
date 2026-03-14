@@ -3,6 +3,9 @@ import yaml from 'js-yaml';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import got from 'got';
+import decodeIco from 'decode-ico';
+import sharp from 'sharp';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -73,7 +76,7 @@ The output YAML must follow the \`Site.SiteInfo\` TypeScript interface. Key fiel
 - \`host\`: hostname only (e.g. example.com)
 - \`siteType\`: NexusPHP | UNIT3D | Gazelle | Other
 - \`icon\`: leave as empty string "" — the maintainer fills this by running \`node ./scripts/icoFetcher.js <SiteName>\`
-- \`asSource\`: true
+- \`asSource\`: false
 - \`asTarget\`: true
 - \`uploadPath\`: path from the raw config
 - \`seedDomSelector\`: CSS selector for where to insert the script UI (e.g. \`'#top~table:first>tbody>tr:nth-child(3)'\`); leave as "#top~table:first>tbody>tr:nth-child(6)" if unknown and the site has a NexusPHP-style upload form, otherwise leave as empty string ""
@@ -169,6 +172,35 @@ ${BLUTOPIA_YAML}\`\`\`
 
 Respond with ONLY the final YAML — no explanation, no markdown fences, no commentary outside the YAML.
 The first line of your response must be \`url:\`.`;
+
+// ── Favicon fetcher ───────────────────────────────────────────────────────────
+
+async function fetchFaviconBase64(siteUrl) {
+  try {
+    const imgBuffer = await got(`${siteUrl}/favicon.ico`, {
+      responseType: 'buffer',
+    }).buffer();
+
+    const imgList = decodeIco(imgBuffer);
+    if (imgList.length === 0) return null;
+
+    const icon = imgList[0];
+    const nonPngIcons = sharp(icon.data, {
+      raw: {
+        width: icon.width,
+        height: icon.height,
+        channels: 4,
+      },
+    });
+    const sharpImg = icon.type === 'png' ? sharp(icon.data) : nonPngIcons;
+
+    const pngBuffer = await sharpImg.resize({ width: 20 }).png().toBuffer();
+    return `data:image/png;base64,${pngBuffer.toString('base64')}`;
+  } catch (err) {
+    console.warn(`Failed to fetch favicon from ${siteUrl}: ${err.message}`);
+    return null;
+  }
+}
 
 // ── Claude API call ──────────────────────────────────────────────────────────
 
@@ -299,15 +331,34 @@ async function main() {
 
   // 3. Extract host from generated YAML for branch/file naming
   let host;
+  let siteUrl;
   try {
     const parsed = yaml.load(generatedYaml);
     host = parsed.host;
+    siteUrl = parsed.url;
     if (!host) throw new Error('No host field in generated YAML');
   } catch (err) {
     await postComment(
       `> [!WARNING]\n> Claude returned YAML that could not be parsed: ${err.message}\n\nHere is the raw output for manual review:\n\n\`\`\`yaml\n${generatedYaml}\n\`\`\``,
     );
     process.exit(0);
+  }
+
+  // Fetch favicon and inject into icon field
+  if (siteUrl) {
+    const iconBase64 = await fetchFaviconBase64(siteUrl);
+    if (iconBase64) {
+      const iconLine = `icon: '${iconBase64}'`;
+      if (/^icon:/m.test(generatedYaml)) {
+        generatedYaml = generatedYaml.replace(/^icon:.*$/m, iconLine);
+      } else {
+        generatedYaml = generatedYaml.replace(
+          /^(url:.*\n)/m,
+          `$1${iconLine}\n`,
+        );
+      }
+      console.log('Favicon fetched and injected into icon field');
+    }
   }
 
   // Sanitize hostname for use in branch names and filenames
